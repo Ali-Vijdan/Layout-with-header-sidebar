@@ -1,0 +1,51 @@
+.sidebarMain {
+    width: 15% !important;
+}
+
+.sidebarHide {
+    width: 15% !important;
+}
+
+@media screen and (max-width: 1225px) {
+    .sidebarMain {
+        width: 20% !important;
+    }
+    .sidebarHide {
+        width: 20% !important;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .sidebarMain {
+        width: 25% !important;
+    }
+    .sidebarHide {
+        width: 25% !important;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .sidebarMain {
+        width: 30% !important;
+    }
+    .sidebarHide {
+        width: 30% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sidebarMain {
+        position: absolute;
+        width: 100% !important;
+        z-index: 1;
+    }
+    .sidebarHide {
+        display: none;
+    }
+    .ant-menu-submenu-popup {
+        top: 540px !important;
+        right: 0 !important;
+        left: unset !important;
+        width: 70% !important;
+    }
+}

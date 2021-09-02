@@ -1,0 +1,95 @@
+.sidebar {
+    width: 100% !important;
+    height: 100% !important;
+    background: #1F295A !important;
+    position: relative;
+    padding: 15px 0px;
+}
+
+.sidebar .site-layout-background {
+    background: #1F295A !important;
+}
+
+.sidebar .siderItem {
+    color: #FFFFFF;
+    /* height: 50px; */
+}
+
+.sidebar .siderItem:hover {
+    background: #FFFFFF !important;
+    color: #435bc8 !important;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sidebar .ant-layout-sider {
+    width: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+}
+
+.site-layout-background .sidebarMenu {
+    background: #1F295A !important;
+}
+
+.sidebar .ant-menu {
+    padding-left: 10px;
+}
+
+.sidebar .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #FFFFFF !important;
+    color: #435bc8;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.sidebar .SetingsMenu {
+    margin-top: 30vh;
+}
+
+.SetingsMenu:hover {
+    background: #FFFFFF !important;
+}
+
+.SetingsMenu span {
+    padding-left: 10px;
+}
+
+.SetingsMenu:hover span {
+    color: #435bc8 !important;
+}
+
+.SetingsMenu .settingItem {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.settingsIcon {
+    font-size: 12px !important;
+}
+
+.profileDropdown {
+    display: none !important;
+}
+
+.ant-dropdown-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    padding-left: 10px;
+}
+
+.ant-dropdown-link .profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #455ECE;
+}
+
+@media screen and (max-width: 500px) {
+    .profileDropdown {
+        display: flex !important;
+    }
+}

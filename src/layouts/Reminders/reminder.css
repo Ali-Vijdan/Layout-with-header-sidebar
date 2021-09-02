@@ -1,0 +1,102 @@
+.pgHeading {
+    display: none;
+    color: #1F295A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.tableOptions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tableOptions button {
+    margin-right: 20px;
+    background: transparent;
+    border: 2px solid #1F295A;
+    color: #1F295A;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.tableOptions button:hover {
+    background: #FFFFFF;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.tableOptions a {
+    color: #000000;
+}
+
+.tableOptions a:hover {
+    color: #1F295A;
+}
+
+.ant-table {
+    background: transparent !important;
+}
+
+.ant-table table {
+    border-spacing: 0px 8px !important;
+    border: none !important;
+}
+
+.ant-table table thead tr {
+    background: transparent !important;
+    border: none !important;
+}
+
+.ant-table table thead tr th {
+    background: transparent !important;
+}
+
+.ant-table table tr {
+    background: #FFFFFF !important;
+    border-radius: 10px !important;
+    padding: 50px;
+}
+
+tr td:nth-child(7) {
+    border-radius: 0px 10px 10px 0px;
+}
+
+tr td:nth-child(1) {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.ant-table-thead>tr>th {
+    border-bottom: none !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #9AA5C5;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width:500px) {
+    .pgHeading {
+        display: block !important;
+    }
+    .tableOptions {
+        display: flex;
+        justify-content: start !important;
+        align-items: center;
+    }
+    .tableOptions button {
+        font-size: 12px !important;
+    }
+    .tableOptions a {
+        font-size: 12px !important;
+    }
+}
